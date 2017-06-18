@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="Stavebni_Denik.Vase_Satvby"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Stavebni_Denik"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="White">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="5*"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBlock Height="Auto" Width="Auto" FontSize="30" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10">Vase satvby</TextBlock>
+
+        <Button Grid.Row="2" Height="Auto" Width="Auto" FontSize="25" HorizontalAlignment="Center">Pridat satvbu</Button>
+    </Grid>
+</Page>
